@@ -1,20 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>System Design</title>
     <description>Design your Own World</description>
     <link>http://localhost:4000/system-design/</link>
     <atom:link href="http://localhost:4000/system-design/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 05 Oct 2019 15:23:59 +0530</pubDate>
-    <lastBuildDate>Sat, 05 Oct 2019 15:23:59 +0530</lastBuildDate>
+    <pubDate>Fri, 01 Nov 2019 16:44:22 +0530</pubDate>
+    <lastBuildDate>Fri, 01 Nov 2019 16:44:22 +0530</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>永久放弃评论功能</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#yungentie&quot; id=&quot;markdown-toc-yungentie&quot;&gt;云跟帖&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#back-to-begin&quot; id=&quot;markdown-toc-back-to-begin&quot;&gt;选择 - 回归&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+        <title>How is cache implemented</title>
+        <description>&lt;p&gt;content&lt;/p&gt;
+
+&lt;p&gt;This is hello world!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 24 Jul 2019 05:30:00 +0530</pubDate>
+        <link>http://localhost:4000/system-design/2019/07/24/Cache/</link>
+        <guid isPermaLink="true">http://localhost:4000/system-design/2019/07/24/Cache/</guid>
+        
+        <category>Cache</category>
+        
+        
+        <category>document</category>
+        
+      </item>
+    
+      <item>
+        <title>What is cache</title>
+        <description>&lt;p&gt;content&lt;/p&gt;
+
+&lt;p&gt;This is the test file created&lt;/p&gt;
+</description>
+        <pubDate>Mon, 24 Jun 2019 05:30:00 +0530</pubDate>
+        <link>http://localhost:4000/system-design/2019/06/24/Cache/</link>
+        <guid isPermaLink="true">http://localhost:4000/system-design/2019/06/24/Cache/</guid>
+        
+        <category>Cache</category>
+        
+        
+        <category>document</category>
+        
+      </item>
+    
+      <item>
+        <title>How is cache used</title>
+        <description>&lt;p&gt;content&lt;/p&gt;
+
+&lt;p&gt;This is the test file created&lt;/p&gt;
+</description>
+        <pubDate>Fri, 24 May 2019 05:30:00 +0530</pubDate>
+        <link>http://localhost:4000/system-design/2019/05/24/Cache/</link>
+        <guid isPermaLink="true">http://localhost:4000/system-design/2019/05/24/Cache/</guid>
+        
+        <category>Cache</category>
+        
+        
+        <category>document</category>
+        
+      </item>
+    
+      <item>
+        <title>What is cache header</title>
+        <description>&lt;p&gt;content&lt;/p&gt;
+
+&lt;p&gt;This is the test file created&lt;/p&gt;
+</description>
+        <pubDate>Wed, 24 Apr 2019 05:30:00 +0530</pubDate>
+        <link>http://localhost:4000/system-design/2019/04/24/Cache/</link>
+        <guid isPermaLink="true">http://localhost:4000/system-design/2019/04/24/Cache/</guid>
+        
+        <category>Cache</category>
+        
+        
+        <category>document</category>
+        
+      </item>
+    
+      <item>
+        <title>Yahoo</title>
+        <description>&lt;!-- * content
+{:toc} --&gt;
 
 &lt;h1 id=&quot;yungentie&quot;&gt;云跟帖&lt;/h1&gt;
 
@@ -51,17 +117,8 @@
     
       <item>
         <title>更换评论系统之从多说到云跟帖</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#say-goodbyte&quot; id=&quot;markdown-toc-say-goodbyte&quot;&gt;挥别&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#choose&quot; id=&quot;markdown-toc-choose&quot;&gt;选择&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#yungentie&quot; id=&quot;markdown-toc-yungentie&quot;&gt;网易云跟帖&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#login-yungentie&quot; id=&quot;markdown-toc-login-yungentie&quot;&gt;登录云跟帖&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#init-yungentie&quot; id=&quot;markdown-toc-init-yungentie&quot;&gt;初始化&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#import-yungentie&quot; id=&quot;markdown-toc-import-yungentie&quot;&gt;复制引入代码&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#change-template-code&quot; id=&quot;markdown-toc-change-template-code&quot;&gt;修改模板代码&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+        <description>&lt;!-- * content
+{:toc} --&gt;
 
 &lt;h1 id=&quot;say-goodbyte&quot;&gt;挥别&lt;/h1&gt;
 
@@ -286,30 +343,30 @@ tag: 教程
     
       <item>
         <title>Welcome to Jekyll!</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#zhugeliang&quot; id=&quot;markdown-toc-zhugeliang&quot;&gt;诫子书&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+        <description>&lt;p&gt;content&lt;/p&gt;
 
-&lt;p&gt;First POST build by Jekyll.&lt;/p&gt;
+&lt;p&gt;First POST build by Jekyll. kaun banega crorepati&lt;/p&gt;
 
 &lt;h2 id=&quot;zhugeliang&quot;&gt;诫子书&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/system-design/styles/images/jiezishu.jpg&quot; alt=&quot;诫子书&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;诸葛亮&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;诸葛亮&lt;/a&gt;
+yes this is ashish&lt;/p&gt;
 
 &lt;p&gt;夫君子之行，静以修身，俭以养德。非淡泊(澹泊)无以明志，非宁静无以致远。夫学须静也，才须学也。非学无以广才，非志无以成学。淫慢则不能励精，险躁则不能冶性。
 年与时驰，意与日去，遂成枯落，多不接世，悲守穷庐，将复何及！&lt;/p&gt;
 
+&lt;p&gt;This post is bout the Cache implementation.&lt;/p&gt;
 </description>
         <pubDate>Mon, 17 Nov 2014 11:01:01 +0530</pubDate>
         <link>http://localhost:4000/system-design/2014/11/17/welcome-to-jekyll/</link>
         <guid isPermaLink="true">http://localhost:4000/system-design/2014/11/17/welcome-to-jekyll/</guid>
         
-        <category>jekyll</category>
+        <category>Cache</category>
         
         
-        <category>jekyll</category>
+        <category>design</category>
         
       </item>
     
